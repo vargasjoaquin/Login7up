@@ -5,7 +5,7 @@
     android:id="@+id/btnTelefono"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@drawable/fondocv">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,30 +23,30 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.853"
+            app:layout_constraintHorizontal_bias="0.83"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.041" />
+            app:layout_constraintVertical_bias="0.06999999" />
 
         <Button
             android:id="@+id/call_button"
-            android:layout_width="123dp"
-            android:layout_height="50dp"
+            android:layout_width="119dp"
+            android:layout_height="59dp"
             android:layout_centerInParent="true"
             android:layout_marginTop="-20dp"
             android:hint="@string/editTextInformacion2"
             android:textColorHint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.899"
+            app:layout_constraintHorizontal_bias="0.85"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.808" />
+            app:layout_constraintVertical_bias="0.78" />
 
         <Button
             android:id="@+id/btnEnviarEmail"
             android:layout_width="112dp"
-            android:layout_height="50dp"
+            android:layout_height="59dp"
             android:layout_marginTop="-20dp"
             android:hint="@string/editTextInformacion3"
             android:textColorHint="@color/black"
@@ -55,7 +55,7 @@
             app:layout_constraintHorizontal_bias="0.163"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.808" />
+            app:layout_constraintVertical_bias="0.78" />
 
         <TextView
             android:id="@+id/textView3"
@@ -68,7 +68,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.741"
+            app:layout_constraintHorizontal_bias="0.73"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,19 +76,19 @@
             android:id="@+id/editText5"
             android:layout_width="356dp"
             android:layout_height="48dp"
-            android:layout_marginStart="-10dp"
+            android:layout_marginStart="-14dp"
             android:layout_marginTop="-60dp"
-            android:layout_marginEnd="-10dp"
+            android:layout_marginEnd="-15dp"
             android:hint="@string/editTextInformacion5"
             android:textColorHint="@color/black"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.709"
+            app:layout_constraintHorizontal_bias="0.88"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.633" />
+            app:layout_constraintVertical_bias="0.63" />
 
         <Button
             android:id="@+id/btnGitHub"
@@ -99,10 +99,10 @@
             android:textColorHint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.968" />
+            app:layout_constraintVertical_bias="0.95" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -114,7 +114,7 @@
             app:layout_constraintHorizontal_bias="0.547"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.157"
+            app:layout_constraintVertical_bias="0.18"
             app:srcCompat="@drawable/foto" />
 
         <ImageView
@@ -124,38 +124,38 @@
             android:layout_marginTop="-55dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.537"
+            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.894"
+            app:layout_constraintVertical_bias="0.88"
             app:srcCompat="@drawable/github" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="91dp"
-            android:layout_height="72dp"
+            android:layout_width="76dp"
+            android:layout_height="58dp"
             android:layout_marginTop="-65dp"
             android:layout_marginEnd="-7dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.822"
+            app:layout_constraintHorizontal_bias="0.79"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.726"
+            app:layout_constraintVertical_bias="0.71000004"
             app:srcCompat="@drawable/telefono" />
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="72dp"
-            android:layout_height="65dp"
+            android:layout_width="62dp"
+            android:layout_height="51dp"
             android:layout_marginStart="-7dp"
             android:layout_marginTop="-69dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintHorizontal_bias="0.23"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.729"
+            app:layout_constraintVertical_bias="0.71000004"
             app:srcCompat="@drawable/gmail" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
