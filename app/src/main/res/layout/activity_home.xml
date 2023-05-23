@@ -12,13 +12,13 @@
 
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/editTextBebida"
             android:layout_width="324dp"
             android:layout_height="295dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Soy la mascota de la bebida 7up, me conocen como FIDO DIDO. Es un gusto que hayas entrado a mi aplicación, espero que te sientas comodo ahi. Puedes visitar el MENU que esta arriba a la derecha de la pantalla."
-            android:textColor="@color/black"
+            android:hint="@string/editTextHome"
+            android:textColorHint="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
             android:id="@+id/imageView4"
             android:layout_width="326dp"
             android:layout_height="297dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintBottom_toTopOf="@+id/editTextBebida"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.623"
             app:layout_constraintStart_toStartOf="parent"

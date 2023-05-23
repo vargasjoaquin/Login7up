@@ -11,23 +11,31 @@
 <item
     android:id="@+id/bebidas"
     android:icon="@drawable/ic_local_drink"
-    android:title="Bebidas"
+    android:title="@string/editTextMenu"
     app:showAsAction="never"
     />
 
     <item
         android:id="@+id/sobrenostros"
         android:icon="@drawable/ic_baseline_info"
-        android:title="Sobre nosotros"
+        android:title="@string/editTextMenu2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/datospersonales"
+        android:icon="@drawable/baseline_person_pin_24"
+        android:title="@string/editTextMenu3"
         app:showAsAction="never"
         />
+
 
     <item
         android:id="@+id/cerrarsession"
         android:icon="@drawable/ic_baseline_logout"
-        android:title="Cerrar Session"
+        android:title="@string/editTextMenu4"
         app:showAsAction="never"
         />
+
 
 
 </menu>

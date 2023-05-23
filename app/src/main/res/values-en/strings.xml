@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login7up</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="ingresar">Access</string>
+    <string name="registrarse">Sing up</string>
+
+    <string name="editTextAcceso">CORRECT ACCESS</string>
+    <string name="editTextAcceso2">Invalid data. Number of attemps:</string>
+    <string name="editTextAcceso3">Please wait 10 seconds to try again</string>
+    <string name="editTextAcceso4">Invalid data, you have spent your 3 attempts.</string>
+
+    <string name="editTextHome">I\'m the 7up drink mascot, they know me as FIDO DIDO. It is a pleasure that you have entered my application, I hope you feel comfortable there. You can visit the MENU that is at the top right of the screen.</string>
+
+
+    <string name="imagenNosotros">About us?</string>
+    <string name="editTextBebidas">DID YOU REALLY BELIEVE WE HAD DRINKS? YOU GONE RE-BAITED MASTER</string>
+    <string name="editTextBebidas2">Na lie, we don\'t have stock xd</string>
+    <string name="editTextNosotros">At 7UP, we are proud to be one of the most iconic and recognized brands in the soft drink industry. From our humble beginnings to becoming a global leader, we have left a refreshing mark on the lives of millions of people around the world.</string>
+    <string name="editTextNosotros2">Our story began in 1929, when Charles Leiper Grigg introduced the world to a unique and revolutionary soft drink: 7UP. Since then, we have stood out for offering a refreshing, bubbly and unique flavor that has delighted generations for more than 90 years.</string>
+    <string name="editTextNosotros3">Charles L. Grigg, creator of 7up.</string>
+    <string name="editTextNosotros4">Our team is made up of passionate and creative individuals who share a common goal: to provide our consumers with the best possible refreshing drink experience.</string>
+    <string name="editTextNosotros5">Thank you for choosing 7UP. We are excited to continue refreshing the world and sharing unforgettable moments with you. Join us on this delicious adventure as we continue to evolve and deliver the flavor you love. Refresh your day with 7UP!</string>
+
+
+    <string name="editTextInformacion">Information of the Programmer</string>
+    <string name="editTextInformacion2">Phone</string>
+    <string name="editTextInformacion3">Email</string>
+    <string name="editTextInformacion4">Name: Vargas, Joaquin Leon</string>
+    <string name="editTextInformacion5">If you have any questions, CONTACT US!</string>
+    <string name="editTextInformacion6">GitHub</string>
+
+    <string name="editTextMenu">Drinks</string>
+    <string name="editTextMenu2">About our company</string>
+    <string name="editTextMenu3">About the programmer</string>
+    <string name="editTextMenu4">Log out</string>
+
+
+</resources>

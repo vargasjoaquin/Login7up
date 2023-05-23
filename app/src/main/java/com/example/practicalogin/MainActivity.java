@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private void validarDatos(String mail, String password) {
 
         if (mail.equals("admin@correo.com") && password.equals("1234")) {
-            Toast.makeText(this, "Acceso Correcto", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.editTextAcceso), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
 
@@ -38,15 +38,15 @@ public class MainActivity extends AppCompatActivity {
             intentos++;
 
             if (intentos < 3) {
-                Toast.makeText(this, "Datos Invalidos. Numero de intentos: " + intentos, Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.editTextAcceso2) + " " + intentos , Toast.LENGTH_SHORT).show();
             } else {
 
                 if (esperarSegundos) {
-                    Toast.makeText(this, "Espere 10 segundos para intentarlo de nuevo, por favor", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, getString(R.string.editTextAcceso3), Toast.LENGTH_SHORT).show();
                     return;
                 }
 
-                Toast.makeText(this, "Datos invalidos, has gastado tus 3 intentos.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, getString(R.string.editTextAcceso4), Toast.LENGTH_SHORT).show();
                 esperarSegundos = true;
 
                 new Handler().postDelayed(new Runnable() {

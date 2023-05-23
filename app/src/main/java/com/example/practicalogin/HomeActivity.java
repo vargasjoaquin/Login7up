@@ -33,6 +33,9 @@ public class HomeActivity extends AppCompatActivity {
         } else if (item_id==R.id.sobrenostros) {
             Intent intent = new Intent(HomeActivity.this, NosotrosActivity.class);
             startActivity(intent);
+        } else if (item_id==R.id.datospersonales) {
+            Intent intent = new Intent(HomeActivity.this, DatosPersonalesActivity.class);
+            startActivity(intent);
         } else if (item_id==R.id.cerrarsession) {
             Intent intent = new Intent(HomeActivity.this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

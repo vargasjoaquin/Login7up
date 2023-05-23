@@ -18,11 +18,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/editTextBebida"
         android:layout_width="308dp"
         android:layout_height="83dp"
-        android:text="ENCERIO TE CREISTE QUE TENIAMOS BEBIDAS? TE FUISTE BAITEADO MASTER "
         android:textColor="@color/black"
+        android:hint="@string/editTextBebidas"
+        android:textColorHint="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/vv1"
@@ -32,10 +33,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/editTextBebida2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Na mentira, no tenemos stock xd"
+        android:hint="@string/editTextBebidas2"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
