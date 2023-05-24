@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@drawable/fondobebidas">
 
 
     <VideoView
@@ -21,8 +21,8 @@
         android:id="@+id/editTextBebida"
         android:layout_width="308dp"
         android:layout_height="83dp"
-        android:textColor="@color/black"
         android:hint="@string/editTextBebidas"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -37,13 +37,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/editTextBebidas2"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vv1"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        app:layout_constraintTop_toBottomOf="@+id/vv1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

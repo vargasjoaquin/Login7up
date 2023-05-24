@@ -12,7 +12,6 @@ public class DatosPersonalesActivity extends AppCompatActivity {
 
     private Button btnLlamada;
     private Button btnEmail;
-
     private Button btnGitHub;
 
     @Override
